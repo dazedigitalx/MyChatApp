@@ -1,0 +1,21 @@
+{
+  "version": 2,
+  "builds": [
+    {
+      "src": "index.js",
+      "use": "@vercel/node"
+    }
+  ],
+  "routes": [
+    { "src": "/(.*)", "dest": "index.js" },
+    { "src": "/api/(.*)", "dest": "/api/$1" }
+  ],
+  "env": {
+    "DB_NAME": "FileChat",
+    "JWT_SECRET": "yourSuperSecretKey",
+    "REFRESH_TOKEN_SECRET": "yourSuperSecretKey",
+    "ACCESS_TOKEN_SECRET": "yourSuperSecretKey",
+    "FRONTEND_ORIGIN": "https://file-chat-client.vercel.app",
+    "NODE_ENV": "production"
+  }
+}

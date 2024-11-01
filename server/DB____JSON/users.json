@@ -1,0 +1,44 @@
+[
+  {
+    "id": 1,
+    "username": "2",
+    "email": "2@2",
+    "password": "$2b$10$YwIr2/BCZa8gJYUeN9NZS.5Q281CLyA0w4KZ8gQ5Cd7Q4A2t/3McG",
+    "created_at": "2024-06-22T20:56:15.000Z"
+  },
+  {
+    "id": 2,
+    "username": "1",
+    "email": "1@1",
+    "password": "$2b$10$A36DbKsmcFQw8mCBDtf22OtZ/7hZInKaE2eE3neV5A69BndjVn5mK",
+    "created_at": "2024-06-22T20:58:48.000Z"
+  },
+  {
+    "id": 3,
+    "username": "3",
+    "email": "3@3",
+    "password": "$2b$10$0N.oP7Im7FjLxzl6NF2wD.tDLophDK81PqXpAeiN3ZNpfHx2K5rb2",
+    "created_at": "2024-06-22T21:21:53.000Z"
+  },
+  {
+    "id": 5,
+    "username": "4",
+    "email": "4@4",
+    "password": "$2b$10$r0HfGcuuQx6unG1kUFgke.yF8Q8NxdSnezxig61P4/j3SOApfKIKm",
+    "created_at": "2024-06-23T01:16:59.000Z"
+  },
+  {
+    "id": 6,
+    "username": "5",
+    "email": "5@5",
+    "password": "$2b$10$qxlSxA2DRDfNauCL0hPUHeUz8ll.evh/RGquD2eWc3cQT34QBcPka",
+    "created_at": "2024-06-23T01:17:10.000Z"
+  },
+  {
+    "id": 7,
+    "username": "7",
+    "email": "7@7",
+    "password": "$2b$10$SOyeoXEqjCW8SKAdHVZjGu3nOfpzDA1/gsrxwfLhpj2qOYWfgUkO.",
+    "created_at": "2024-06-23T13:27:20.000Z"
+  }
+]

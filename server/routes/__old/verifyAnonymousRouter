@@ -1,0 +1,12 @@
+const express = require('express');
+const router = express.Router();
+const ChannelsAnon = require('../models/ChannelsAnon'); // Ensure this path is correct
+
+// Verify anonymous user ID
+router.get('/verify-anonymous', (req, res) => {
+    const anonymousId = req.query.anonymousId;
+    // Logic to handle the request
+    res.send(`Anonymous ID received: ${anonymousId}`);
+});
+
+module.exports = router;
